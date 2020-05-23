@@ -25,7 +25,7 @@ public class HomeTest {
     }
 
     @Test
-    public void mainTest() throws InterruptedException {
+    public void mainTest() {
         driver.get("https://www.rgs.ru/");
 
         String menuLink = "//li[@class='dropdown adv-analytics-navigation-line1-link current']//a[contains(text(), 'Меню')]";
